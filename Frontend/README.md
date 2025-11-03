@@ -1,19 +1,18 @@
-### Instala dependências
+### Project setup
 ```
 npm install
 ```
 
-#### Compila e Relança a aplicação conforme desenvolvimento
+#### Compiles and hot-reloads for development
 ```
 npm run dev
 ```
 
-#### Compila e monta para produção
+#### Compiles and minifies for production
 ```
 npm run build
 ```
 
-### Executa testes
+### Run Tests
 ```
 npm run test
-```

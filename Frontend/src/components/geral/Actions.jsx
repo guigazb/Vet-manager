@@ -10,7 +10,7 @@ const Actions = ({
     return (
         <>
             {/* Dashboard actions */}
-            <div className="sm:flex sm:justify-between sm:items-center mb-8">
+            <div className="sm:flex sm:justify-between sm:items-center mb-3">
 
                 {/* Left: Title */}
                 <div className="mb-4 sm:mb-0">

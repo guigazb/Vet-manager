@@ -31,16 +31,17 @@ const Modal = ({ modalAberto, onFechar, tamanho = 'p', children }) => {
         <div className="fixed inset-0 z-50 flex items-center rounded-lg justify-center">
             {/* Backdrop */}
             <div
-                className="fixed inset-0 bg-black bg-opacity-60"
+                className="fixed inset-0 bg-black/60"
                 onClick={onFechar}
             />
 
             {/* Conteúdo do Modal */}
             <div className={`
-                relative z-50 w-full max-w-lg bg-white rounded-lg shadow-xl
+                relative z-50 w-full max-w-[60vw] bg-white rounded-lg shadow-xl
                 ${tamanho === 'p' && 'max-w-sm max-h-[70vh]'}
                 ${tamanho === 'm' && 'max-w-lg max-h-[80vh]'}
                 ${tamanho === 'g' && 'max-w-4xl max-h-[90vh]'}
+                ${tamanho === 'gg' && 'w-[60vw] max-h-[90vh]'}
                 `}>
 
                 {React.Children.map(children, (child) => {
