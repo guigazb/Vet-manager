@@ -41,7 +41,7 @@ const TextAreaInput = ({
         <>
             <div className={`sm:col-span-${colSpan}`}>
 
-                <label className="block text-sm font-medium text-gray-900 leading-6">
+                <label htmlFor={nomeComponente} className="block text-sm font-medium text-gray-900 leading-6">
                     {valorLabel}
                 </label>
                 <div className={`mt-2`}></div>

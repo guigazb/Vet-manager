@@ -4,13 +4,13 @@ import PropTypes from 'prop-types';
 import BoxItem from './BoxItem';
 import BoxButtons from './BoxButtons';
 
-const BoxColunar = ({ children, loading, altura = 400 }) => {
+const BoxColunar = ({ children, loading, altura = 400, bgcolor = "bg-gray-100" }) => {
     return (
         <>
             {loading ? (
                 <p className="mt-10">Carregando informações...</p>
             ) : (
-                <div className={`flex h-[${altura}px] rounded-lg`}>
+                <div className={`flex h-[${altura}px] rounded-lg ${bgcolor}`}>
                     {React.Children.map(children, (child) => {
                         if (child.type === BoxItem || child.type === BoxButtons) {
                             return child;

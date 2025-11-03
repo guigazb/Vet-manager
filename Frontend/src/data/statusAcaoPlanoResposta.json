@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "status": "planejado",
+    "label": "Planejado",
+    "cor": "#3498db"
+  },
+  {
+    "id": 2,
+    "status": "em_andamento",
+    "label": "Em andamento",
+    "cor": "#f1c40f"
+  },
+  {
+    "id": 3,
+    "status": "pendente",
+    "label": "Pendente",
+    "cor": "#873260"
+  },
+  {
+    "id": 4,
+    "status": "cancelado",
+    "label": "Cancelado",
+    "cor": "#778899"
+  },
+  {
+    "id": 5,
+    "status": "concluido",
+    "label": "Concluído",
+    "cor": "#2ecc71"
+  }
+]
